@@ -1,0 +1,13 @@
+Help to extract the total {emission_type} emissions in the year {year} from a table given below from a preselection of possible answers. 
+Therefore choose the best answer for the given context out of the set of possible answers. And fill in the json format: {{"Scope 3": <{emission_type} Emission>}}, where is a string of the {emission_type} Emission with unit.
+
+
+Context: 
+
+{text}
+
+Question: What are the total {emission_type} emissions in the year {year} given in the table?
+
+Possible Answers: {preselection}
+
+Answer:
